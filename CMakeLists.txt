@@ -87,7 +87,7 @@ SET(CODELITHIC_WEB
         include/codelithic/web/utils/uri.hpp
         include/codelithic/web/utils/httpresponsefile.hpp
         include/codelithic/web/utils/auth.hpp
-        include/codelithic/web/utils/Uuid.hpp
+#        include/codelithic/web/utils/Uuid.hpp
         include/codelithic/web/utils/httpresponse.hpp
         include/codelithic/web/utils/identifier.hpp
         include/codelithic/web/utils/httpcontent.hpp
