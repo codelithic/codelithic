@@ -107,4 +107,4 @@ SET(CODELITHIC_WEB
         )
 
 add_library(codelithic_web STATIC ${CODELITHIC_WEB})
-TARGET_LINK_LIBRARIES(codelithic_web codelithic uuid ${CURL_LIBRARIES} pthread)
+TARGET_LINK_LIBRARIES(codelithic_web codelithic  ${CURL_LIBRARIES} pthread)#uuid
