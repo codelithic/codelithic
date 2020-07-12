@@ -43,7 +43,7 @@ public:
   const std::string &getLastError() const { return lastError; }
   void resetError() { lastError.clear(); }
   void setLastError(std::string strError) {
-    IModInterface::lastError = std::move(lastError);
+    IModInterface::lastError = std::move(strError);
   }
 
 protected:
